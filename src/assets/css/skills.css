@@ -1,0 +1,154 @@
+.banner{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.banner h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.line{
+    width: 40vw;
+    height: 0.3vh;
+    background-color: #C778DD;
+    margin: 1.5rem 0;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.left{
+    width: 40vw;
+}
+
+.skills-dot1{
+    position: absolute;
+    width: 10vw;
+    top: 225vh;
+    left: 10vw;
+}
+
+.skills-squar1{
+    border: #FFFFFF 1px solid;
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 230vh;
+    left: 25vw;
+}
+
+.skills-overlayer{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    top: 260vh;
+    left: 5vw;
+}
+
+.skills-dot2{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 265vh;
+    left: 25vw;
+}
+
+.skills-squar2{
+    border: #FFFFFF 1px solid;
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    top: 240vh;
+    left: 30vw;
+}
+
+.right{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.skill-continer{
+    border: #828893 2px solid;
+    width: 20vw;
+    padding: 0.5rem;
+}
+
+.skill-banner h2{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.skill-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .banner{
+        display: flex;
+        justify-content: start;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    
+    .banner h2{
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+    
+    .line{
+        width: 40vw;
+        height: 0.3vh;
+        background-color: #C778DD;
+        margin: 1.5rem 0;
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    
+    .left *, .left{
+        display: none;
+    }
+    
+    .right{
+        width: 90vw;
+        display: block;
+        gap: 1rem;
+    }
+    
+    .skill-continer{
+        border: #828893 2px solid;
+        width: 80vw;
+        padding: 0.5rem;
+        margin: 1rem 0;
+    }
+    
+    .skill-banner h2{
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+    
+    .skill-content ul{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        gap: 1rem;
+    }
+}

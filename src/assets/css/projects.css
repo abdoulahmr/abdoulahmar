@@ -1,0 +1,200 @@
+.banner{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.banner h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.line{
+    width: 40vw;
+    height: 0.3vh;
+    background-color: #C778DD;
+    margin: 1.5rem 0;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.banner a:hover{
+    color: #828893;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project{
+    width: 25vw;
+}
+
+.project-image{
+    border: #828893 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.project-image img{
+    width: 24.5vw;
+}
+
+.project-info{
+    border: #828893 2px solid;
+    padding: 1rem;
+}
+
+.project-info h3{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+.project-info p{
+    font-size: 1.2rem;
+    color: #828893;
+    margin: 0.5rem 0;
+}
+
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.project-links svg{
+    width: 1vw;
+    margin-right: 1rem;
+}
+
+.project-info a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border: #C778DD 2px solid;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.project-links a:hover{
+    background-color: #C778DD;
+}
+
+.project-tags{
+    border: #828893 2px solid;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    
+    .banner h2{
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+    
+    .line{
+        width: 40vw;
+        height: 0.3vh;
+        background-color: #C778DD;
+        margin: 1.5rem 0;
+    }
+    
+    .banner a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 1rem;
+        padding: 0.5rem;
+        transition: 0.3s ease;
+    }
+    
+    .project-container{
+        display: block;
+        margin: 0.5rem;
+    }
+    
+    .project{
+        width: 95vw;
+        margin: 1rem 0;
+    }
+    
+    .project-image{
+        border: #828893 2px solid;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project-image img{
+        width: 94.5vw;
+    }
+    
+    .project-info{
+        border: #828893 2px solid;
+        padding: 1rem;
+    }
+    
+    .project-info h3{
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        margin: 0.5rem 0;
+    }
+    .project-info p{
+        font-size: 1.2rem;
+        color: #828893;
+        margin: 0.5rem 0;
+    }
+    
+    .project-links{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    
+    .project-links svg{
+        width: 1vw;
+        margin-right: 1rem;
+    }
+    
+    .project-info a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        border: #C778DD 2px solid;
+        padding: 0.5rem;
+        transition: 0.3s ease;
+    }
+    
+    .project-links a:hover{
+        background-color: #C778DD;
+    }
+    
+    .project-tags{
+        border: #828893 2px solid;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        gap: 1rem;
+    }
+}

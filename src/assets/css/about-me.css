@@ -1,0 +1,67 @@
+.about-me{
+    margin: 5rem 0;
+}
+.banner{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    margin: 1rem;
+    margin-left: 10rem;
+}
+
+.banner h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.line{
+    width: 40vw;
+    height: 0.3vh;
+    background-color: #C778DD;
+    margin: 1.5rem 0;
+}
+
+.content{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 5rem;
+    font-size: 1.5rem;
+    color: #828893;
+    display: block;
+}
+
+.content p{
+    margin: 1rem 0;
+}
+
+.content a{
+    color: #C778DD;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .banner{
+        display: flex;
+        justify-content: start;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    
+    .banner h2{
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+    
+    .line{
+        width: 40vw;
+        height: 0.3vh;
+        background-color: #C778DD;
+        margin: 1.5rem 0;
+    }
+    .content{
+        text-align: center;
+        font-size: 1rem;
+        color: #828893;
+    }
+    
+}
