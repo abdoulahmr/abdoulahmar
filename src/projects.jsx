@@ -11,7 +11,7 @@ function Projects(){
             <div className="project-container">
                 <div class="project">
                     <div className="project-image">
-                        <img src="src/assets/img/dvibes.PNG" alt="project1"/>
+                        <img src="/img/dvibes.PNG" alt="project1"/>
                     </div>
                     <div className="project-info">
                         <h3>DVibes</h3>
@@ -38,7 +38,7 @@ function Projects(){
                 </div>
                 <div class="project">
                     <div className="project-image">
-                        <img src="src/assets/img/cvum.png" alt="project1"/>
+                        <img src="/img/cvum.png" alt="project1"/>
                     </div>
                     <div className="project-info">
                         <h3>University Covid Vaccin Management</h3>
@@ -64,7 +64,7 @@ function Projects(){
                 </div>
                 <div class="project">
                     <div className="project-image">
-                        <img src="src/assets/img/se.png" alt="project1"/>
+                        <img src="/img/se.png" alt="project1"/>
                     </div>
                     <div className="project-info">
                         <h3>Selaa Express</h3>

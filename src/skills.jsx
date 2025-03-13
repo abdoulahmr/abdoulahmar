@@ -9,10 +9,10 @@ function Skills() {
             </div>
             <div className="skills-container">
                 <div className="left">
-                    <img src="src/assets/img/dots.png" alt="dots" className="skills-dot1"/>
+                    <img src="/img/dots.png" alt="dots" className="skills-dot1"/>
                     <div className="skills-squar1"></div>
-                    <img src="src/assets/img/overlayer.png" alt="overlayer" className="skills-overlayer"/>
-                    <img src="src/assets/img/dots.png" alt="dots" className="skills-dot2"/>
+                    <img src="/img/overlayer.png" alt="overlayer" className="skills-overlayer"/>
+                    <img src="/img/dots.png" alt="dots" className="skills-dot2"/>
                     <div className="skills-squar2"></div>
                 </div>
                 <div className="right">
