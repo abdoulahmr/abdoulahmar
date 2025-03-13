@@ -10,9 +10,9 @@ function Home(){
                     <button className="btn">Contact me</button>
                 </div>
                 <div className="first-right">
-                    <img src="./src/assets/img/pfp.png" alt="Abdessalem" className="pfp"/>
-                    <img src="/src/assets/img/overlayer.png" alt="overlayer" className="overlayer"/>
-                    <img src="src/assets/img/dots.png" alt="dots" className="dots"/>
+                    <img src="/img/pfp.png" alt="Abdessalem" className="pfp"/>
+                    <img src="/img/overlayer.png" alt="overlayer" className="overlayer"/>
+                    <img src="/img/dots.png" alt="dots" className="dots"/>
                     <div className="current-project">
                         <div className="squar"></div>
                         <h2>Currently working on <span>AI project</span></h2>
