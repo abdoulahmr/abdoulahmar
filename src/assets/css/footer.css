@@ -1,0 +1,35 @@
+footer {
+    border-top: #828893 3px solid;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #C778DD;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #828893;
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: none;
+    }
+}

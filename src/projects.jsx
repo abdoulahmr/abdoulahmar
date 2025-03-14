@@ -2,14 +2,14 @@ import "./assets/css/projects.css";
 
 function Projects(){
     return(
-        <section className="projects">
-            <div className="banner">
+        <section className="projects" id="projects">
+            <div className="banner" data-aos="slide-right">
                 <h2><span className="hash">#</span>Projects</h2>
                 <div className="line"></div>
                 <a href="#">View all &gt;&gt;&gt;</a>
             </div>
             <div className="project-container">
-                <div class="project">
+                <div class="project" data-aos="flip-up">
                     <div className="project-image">
                         <img src="/img/dvibes.PNG" alt="project1"/>
                     </div>
@@ -36,7 +36,7 @@ function Projects(){
                         <img src="https://img.shields.io/badge/SQLite-3.36.0-blue" alt="SQLite Version"/>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="flip-down">
                     <div className="project-image">
                         <img src="/img/cvum.png" alt="project1"/>
                     </div>
@@ -62,7 +62,7 @@ function Projects(){
                         <img src="https://img.shields.io/badge/SQLite-3.36.0-blue" alt="SQLite Version"/>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="flip-up">
                     <div className="project-image">
                         <img src="/img/se.png" alt="project1"/>
                     </div>

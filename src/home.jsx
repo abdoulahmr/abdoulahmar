@@ -2,14 +2,14 @@ import "./assets/css/home.css";
 
 function Home(){
     return (
-        <section className="home">
+        <section className="home" id="home" data-aos="fade-up">
             <div className="first">
-                <div className="first-left">
+                <div className="first-left" data-aos="fade-right">
                     <h1>Abdessalem is a <span className="hash">Software engineer</span> and <span className="hash">Full stack developer</span></h1> 
                     <h3>He crafts responsive websites where technologies meet creativity</h3>
                     <button className="btn">Contact me</button>
                 </div>
-                <div className="first-right">
+                <div className="first-right " data-aos="fade-left">
                     <img src="/img/pfp.png" alt="Abdessalem" className="pfp"/>
                     <img src="/img/overlayer.png" alt="overlayer" className="overlayer"/>
                     <img src="/img/dots.png" alt="dots" className="dots"/>

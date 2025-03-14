@@ -1,0 +1,121 @@
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.contact-left{
+    width: 40vw;
+    padding: 1rem;
+    color: #828893;
+    font-size: 1.5rem;
+}
+
+.contact-right{
+    width: 40vw;
+    padding: 1rem;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #828893 1px solid;
+    padding: 1rem;
+}
+
+.contact-right input, .contact-right textarea{
+    width: 20vw;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #828893;
+    border-radius: 5px;
+    background-color: #828893;
+    transition: 0.5s ease-in-out
+}
+
+.contact-right textarea{
+    height: 10vh;
+}
+
+.contact-right input:focus, .contact-right textarea:focus{
+    background-color: white;
+    border: #828893 1px solid;
+}
+
+.contact-right button{
+    width: 10vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #C778DD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.contact-right button:hover{
+    background-color: #A4508B;
+}
+
+@media (max-width: 600px) {
+    .contact-content{
+        display: block;
+        height: 40vh;
+    }
+    
+    .contact-left{
+        width: 90vw;
+        padding: 1rem;
+        color: #828893;
+        font-size: 1.5rem;
+    }
+    
+    .contact-right{
+        width: 90vw;
+        padding: 1rem;
+    }
+    
+    .contact-right form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: #828893 1px solid;
+        padding: 1rem;
+    }
+    
+    .contact-right input, .contact-right textarea{
+        width: 75vw;
+        padding: 0.7rem;
+        margin: 0.7rem 0;
+        border: 1px solid #828893;
+        border-radius: 5px;
+        background-color: #828893;
+        transition: 0.5s ease-in-out
+    }
+    
+    .contact-right textarea{
+        height: 10vh;
+    }
+    
+    .contact-right input:focus, .contact-right textarea:focus{
+        background-color: white;
+        border: #828893 1px solid;
+    }
+    
+    .contact-right button{
+        width: 75vw;
+        padding: 0.7rem;
+        border-radius: 0.4rem;
+        background-color: #C778DD;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 1rem;
+        transition: 0.5s ease-in-out;
+    }    
+}

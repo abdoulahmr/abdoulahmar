@@ -2,7 +2,7 @@ import './assets/css/quote.css';
 
 function Quote(){
     return (
-        <section className="quote">
+        <section className="quote" data-aos="fade-up">
             <div class="quote-container">
                 <div class="quote-box">
                     <span class="quote-mark start">&ldquo;</span>

@@ -2,8 +2,8 @@ import "./assets/css/skills.css";
 
 function Skills() {
     return(
-        <section className="skills">
-            <div className="banner">
+        <section className="skills" >
+            <div className="banner" data-aos="slide-left">
                 <h2><span className="hash">#</span>Skills</h2>
                 <div className="line"></div>
             </div>
@@ -16,7 +16,7 @@ function Skills() {
                     <div className="skills-squar2"></div>
                 </div>
                 <div className="right">
-                    <div className="skill-continer">
+                    <div className="skill-continer" data-aos="zoom-in-down">
                         <div className="skill-banner">
                             <h2>Languages</h2>
                         </div>
@@ -33,7 +33,7 @@ function Skills() {
                             </ul>
                         </div>
                     </div>
-                    <div className="skill-continer">
+                    <div className="skill-continer" data-aos="zoom-in-up">
                         <div className="skill-banner">
                             <h2>DataBases</h2>
                         </div>
@@ -50,7 +50,7 @@ function Skills() {
                             </ul>
                         </div>
                     </div>
-                    <div className="skill-continer">
+                    <div className="skill-continer" data-aos="zoom-in-up">
                         <div className="skill-banner">
                             <h2>Framworks</h2>
                         </div>
@@ -67,7 +67,7 @@ function Skills() {
                             </ul>
                         </div>
                     </div>
-                    <div className="skill-continer">
+                    <div className="skill-continer" data-aos="zoom-in-up">
                         <div className="skill-banner">
                             <h2>Tools</h2>
                         </div>
