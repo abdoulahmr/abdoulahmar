@@ -23,6 +23,11 @@
     opacity: 0.7;
     transition: opacity 0.3s ease;
 }
+
+.scocial-icons a{
+    width: 10vw;
+    height: 10vw;
+}
   
 .social-icons li a img:hover {
     opacity: 1;
