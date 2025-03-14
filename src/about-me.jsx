@@ -2,7 +2,7 @@ import './assets/css/about-me.css';
 
 function AboutMe() {
     return(
-        <section className='about-me' id='about-me'>
+        <section className="about-me" id="about-me">
             <div className="banner" data-aos="slide-right">
                 <h2><span className="hash">#</span>About me</h2>
                 <div className="line"></div>

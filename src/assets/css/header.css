@@ -1,13 +1,23 @@
+/* Hide the mobile menu initially */
+.mobile {
+    display: none;
+}
+
+/* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
+    background-color: #282C33;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 header h1 {
     font-size: 1.5rem;
-    margin-left: 2rem;
-    padding-left: 5rem;
     color: #FFFFFF;
 }
 
@@ -17,10 +27,8 @@ header h1 {
 
 ul {
     list-style: none;
-    margin: 1rem;
     display: flex;
-    gap: 3rem;
-    margin-right: 7rem;
+    gap: 2rem;
 }
 
 li {
@@ -34,9 +42,58 @@ li:hover {
     color: #FFFFFF;
 }
 
+/* Mobile Navigation */
 @media (max-width: 600px) {
-    nav{
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding: 10px;
+        position: relative;
+    }
+
+    .menu-icon span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: white;
+        transition: 0.3s;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        gap: 5rem;
+        background: #282C33;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 1rem 0;
+        position: absolute;
+        top: 1;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* Show menu when checkbox is checked */
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    /* Hide default checkbox */
+    #menu-toggle {
         display: none;
     }
 }
-  

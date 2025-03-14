@@ -2,7 +2,7 @@ import './assets/css/contact-me.css';
 
 function ContactMe() {
     return(
-        <section className='contact-me' id='contact-me'>
+        <section className="contact-me" id="contact-me">
             <div className="banner" data-aos="slide-left">
                 <h2><span className="hash">#</span>Contact me</h2>
                 <div className="line"></div>
